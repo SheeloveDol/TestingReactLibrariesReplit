@@ -34,7 +34,7 @@ const Teams = () => {
             key={team.id}
           >
             <Text fontSize='2xl'>{team.name}</Text>
-            <Text>{team.team}</Text>
+            <Text fontSize='xs' >{team.team}</Text>
           </Box>
           )
         )
